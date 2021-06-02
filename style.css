@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url("image/mando2.jpeg");
+  background-repeat: no-repeat;
+  height: 110vh;
+  background-size: cover;
+}
+.app-main {
+  padding: 3rem;
+}
+.container {
+  padding: 0.5rem;
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  background-color: rgba(255, 253, 253, 0.795);
+}
+
+.about h2{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.about p {
+    text-align: justify;
+    line-height: 1.4rem;
+    padding: 0.2rem;
+}
+textarea {
+  width: 100%;
+  font-size: 1.4rem;
+  height: 20vh;
+  padding: 0.5rem;
+}
+.btn{
+    font-size:1rem ;
+    padding: 0.5rem;
+}
+.result-text {
+    padding: 0.5rem;
+}
+.section-result-area{
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+}
+.result {
+    height: 20vh;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 500px) {
+    body{
+        height: 130vh;
+    }
+}
